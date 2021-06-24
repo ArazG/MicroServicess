@@ -3,11 +3,11 @@
     {
       //gelenleri hangi adresse gondereyim ayari
       "DownstreamPathTemplate": "/api/res/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44370
+          "Host": "c_res_api",
+          "Port": 7000
         }
       ],
 
@@ -18,11 +18,11 @@
     {
       //gelenleri hangi adresse gondereyim ayari
       "DownstreamPathTemplate": "/api/contact/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 44390
+          "Host": "c_contact_api",
+          "Port": 9000
         }
       ],
 
